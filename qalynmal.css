@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+    margin: 0 auto;
+    width: 100%;
+}
+
+body{
+    background-image: url("https://kartinkinaden.ru/uploads/posts/2021-01/1610499986_13-p-goluboi-fon-s-serdechkami-17.jpg");
+    
+}
+.checkbox-lg .custom-control-label {
+  padding-top: 40px;
+  padding-left: 6px;
+}
+
+.center {
+    position: absolute;
+    top: 70%;
+    transform: translate(0, -50%);
+    padding: 70px;
+    }
+    .checkbox-lg .custom-control-label::before, 
+    .checkbox-lg .custom-control-label::after {
+      top: .8rem;
+      width: 1.55rem;
+      height: 1.55rem;
+    }
+    
